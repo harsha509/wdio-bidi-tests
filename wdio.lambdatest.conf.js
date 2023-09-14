@@ -17,7 +17,7 @@ export const config = {
     }],
 
   user: "sri_harsha509",
-  key: "f5fINMkiNnSvGqgVeJ9DCH61jDC8XiJ7Q0D0HDpDUjw5YkeF16",
+  key: "<key>",
   buildName: "bidi test",
 
   services: [
