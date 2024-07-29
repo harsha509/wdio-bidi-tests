@@ -8,7 +8,7 @@ export const config = {
     capabilities: [{
         browserName: 'chrome',
         webSocketUrl: true,
-      'goog:chromeOptions': {
+        'goog:chromeOptions': {
         excludeSwitches: ['--enable-automation'],
       },
     }],

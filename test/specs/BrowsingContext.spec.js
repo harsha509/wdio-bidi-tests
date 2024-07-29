@@ -9,6 +9,5 @@ describe("Browsing context text", ()=> {
 
     await browser.browsingContextClose({context: id})
     console.log(await browser.sessionStatus({}))
-    await browser.deleteSession();
   })
 })

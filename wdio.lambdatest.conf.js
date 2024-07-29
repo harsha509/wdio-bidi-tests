@@ -6,18 +6,17 @@ export const config = {
 
   capabilities: [
     {
-      webSocketUrl: true,
       "LT:Options": {
         browserName: "chrome",
-        webSocketUrl: true,
         version: "latest",
+        webSocketUrl: true,
         name: "Test WebdriverIO bidi",
-        build: "Bidi test"
+        build: "Bidi test 1"
       }
     }],
 
   user: "sri_harsha509",
-  key: "<key>",
+  key: "",
   buildName: "bidi test",
 
   services: [
