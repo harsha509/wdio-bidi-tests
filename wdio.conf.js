@@ -2,15 +2,12 @@
 export const config = {
     runner: 'local',
     specs: [
-        './test/specs/BrowsingContext.spec.js'
+        './test/specs/*.spec.js',
     ],
 
     capabilities: [{
         browserName: 'chrome',
         webSocketUrl: true,
-        'goog:chromeOptions': {
-        excludeSwitches: ['--enable-automation'],
-      },
     }],
 
     logLevel: 'info',

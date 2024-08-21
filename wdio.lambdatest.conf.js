@@ -1,7 +1,7 @@
 
 export const config = {
     specs: [
-        './test/specs/BrowsingContext.spec.js'
+      './test/specs/*.spec.js'
     ],
 
   capabilities: [
@@ -15,9 +15,9 @@ export const config = {
       }
     }],
 
-  user: "sri_harsha509",
-  key: "",
-  buildName: "bidi test",
+  user: process.env.LT_USER,
+  key: process.env.LT_KEY,
+  buildName: "BiDi test",
 
   services: [
     [
