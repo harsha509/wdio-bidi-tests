@@ -6,17 +6,16 @@ export const config = {
 
   capabilities: [
     {
+      browserName: "chrome",
       "LT:Options": {
-        browserName: "chrome",
         version: "latest",
-        webSocketUrl: true,
-        name: "Test WebdriverIO bidi",
-        build: "Bidi test 1"
+        build: "BiDi Test",
+        name: "Chrome - BiDi test",
       }
     }],
 
-  user: process.env.LT_USER,
-  key: process.env.LT_KEY,
+  user: process.env.LT_USERNAME,
+  key: process.env.LT_ACCESS_KEY,
   buildName: "BiDi test",
 
   services: [

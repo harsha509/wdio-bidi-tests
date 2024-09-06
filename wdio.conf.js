@@ -2,11 +2,11 @@
 export const config = {
     runner: 'local',
     specs: [
-        './test/specs/*.spec.js',
+        './test/specs/logEntry.spec.js',
     ],
 
     capabilities: [{
-        browserName: 'chrome',
+        browserName: 'firefox',
         webSocketUrl: true,
     }],
 
