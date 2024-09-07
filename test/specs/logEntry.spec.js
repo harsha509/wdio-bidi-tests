@@ -1,8 +1,5 @@
 describe("Log Entry", ()=> {
-  it("Should be able listen console log events", async ()=> {
-    // Subscribe to log entry events using WebDriver BiDi
-    await browser.sessionSubscribe({ events: ['log.entryAdded'] })
-
+  it("Should listen to console log events", async ()=> {
     // Set up an event listener for 'log.entryAdded' to log console entries in real-time
     await browser.on('log.entryAdded', (entryAdded) => console.log('received %s', entryAdded))
 

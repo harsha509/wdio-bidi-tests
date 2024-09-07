@@ -2,7 +2,7 @@
 export const config = {
     runner: 'local',
     specs: [
-        './test/specs/logEntry.spec.js',
+        './test/specs/*.spec.js',
     ],
 
     capabilities: [{
